@@ -14,6 +14,7 @@
 
  <?php 
 
+$http_client_ip = '';
 if (!empty($_SERVER['HTTP_CLIENT_IP'])) { $http_client_ip = $_SERVER['HTTP_CLIENT_IP']; }
 if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) { $http_x_forwarded_for = $_SERVER['HTTP_X_FORWARDED_FOR']; }
 if (!empty($_SERVER['REMOTE_ADDR'])) { $remote_addr = $_SERVER['REMOTE_ADDR']; }
